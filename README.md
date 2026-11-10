@@ -1,4 +1,4 @@
-# StreamGuard: Real-Time Transaction Anomaly Detection & Fraud Intelligence
+# TxnSentinel: Real-Time Transaction Anomaly Detection & Fraud Intelligence
 
 A production-grade streaming pipeline that ingests transactions in real time, flags suspicious behavior using distributed rule engines, enforces message idempotency, caches account risk profiles via Redis, stores relational audits in PostgreSQL with Alembic migrations, and exposes analytics via FastAPI. Extended with an offline batch machine learning pipeline comparing unsupervised Isolation Forest and supervised Logistic Regression against rule-based verdicts.
 
